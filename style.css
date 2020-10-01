@@ -17,12 +17,12 @@ header{
     letter-spacing: 0.1em;
 } 
 
-ul{
+.spisok{
     display: flex;
 }  
 
-li{
-    padding-left: 40px;
+.spisok li{
+    padding-left: 63px;
 }
     
 body{
@@ -69,4 +69,32 @@ h1{
     font-weight: 700;
     letter-spacing: 0.2em;
     text-transform: uppercase;
+}
+
+.knopka2{
+    width: 121px;
+    height: 22px;
+    letter-spacing: 0.1em;
+    background-color: transparent;
+    border-color: transparent;
+    margin: 55px 124px 0px 70px;
+}
+
+.str1{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.knopka3{
+    width: 121px;
+    height: 22px;
+    letter-spacing: 0.1em;
+    background-color: transparent;
+    border-color: transparent;
+    margin: -55px 124px 0px 160px;
+}
+
+.str2{
+    background-color: transparent;
+    border-color: transparent;
 }
