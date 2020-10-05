@@ -17,14 +17,14 @@ header{
     letter-spacing: 0.1em;
 } 
 
-.spisok{
+ul{
     display: flex;
 }  
 
-.spisok li{
-    padding-left: 63px;
+li{
+    padding-left: 40px;
 }
-    
+
 body{
     background-image: url(img/bg.png);
 }
@@ -71,30 +71,100 @@ h1{
     text-transform: uppercase;
 }
 
-.knopka2{
+
+.button{
     width: 121px;
     height: 22px;
     letter-spacing: 0.1em;
     background-color: transparent;
     border-color: transparent;
-    margin: 55px 124px 0px 70px;
+
 }
 
-.str1{
-    background-color: transparent;
-    border-color: transparent;
+.arrow{
+    margin-top: 37px;
+    background-image: url("img/Arrow\ right.png");
+    background-repeat: no-repeat;
+    border: none;
+
 }
 
-.knopka3{
-    width: 121px;
-    height: 22px;
-    letter-spacing: 0.1em;
-    background-color: transparent;
-    border-color: transparent;
-    margin: -55px 124px 0px 160px;
+.arrows{
+    display: flex;
+    padding: 0;
+    margin: ;
 }
 
-.str2{
-    background-color: transparent;
-    border-color: transparent;
+.for_ex{
+    color: #c4c4c4;
+}
+
+.back{
+    padding-left: 25px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.arrowb{
+    background-image: url("img/Arrow\ left.png");
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.for_arrow1{
+    display: flex;
+}
+
+.back_arr{
+    margin-top: 37px;
+    margin-left: 138px;
+}
+
+.margin_blyat{
+    margin-top: 37px;
+    margin-left: 108px;
+} 
+.kolonka{
+    width: 150px;
+    height: 1045px;
+    position: absolute;
+    background-color:rgba(51, 51, 51, 0.75) ;
+}
+.kontakt{
+    display: flex;
+    transform: rotate(270deg);
+    margin-top: 383px;
+    margin-left: -45px;
+    width: 242px;
+    font-size: 18px;
+    font-weight: 800px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #c4c4c4;
+}
+.space{
+    padding-right: 10px;
+}
+hr{
+    transform: rotate(270deg);
+    position: absolute;
+    width: 60px;
+    height: 0px;
+    border: 1px solid #c4c4c4;
+    top: 620px;
+    left: 45px;
+}
+.links{
+    list-style: none;
+    margin-top: 250px;
+    margin-left: 23px;
+    display: block;
+}
+.links li{
+    
+    padding-top: 30px;
+}
+.fb{
+    margin-left: 5px;
 }
